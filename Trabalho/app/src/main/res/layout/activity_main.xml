@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_professor"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="52dp"
+        android:text="Cadastrar Professor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_disciplina"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:text="Cadastrar disciplina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_professor" />
+
+    <Button
+        android:id="@+id/bt_emprestimo"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:text="Cadastrar empréstimo de chave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_disciplina" />
+
+    <Button
+        android:id="@+id/bt_professores"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="68dp"
+        android:text="Listar Professores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_emprestimo" />
+
+    <Button
+        android:id="@+id/bt_listar_disciplinas"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:text="Listar Disciplinas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_professores" />
+
+    <Button
+        android:id="@+id/bt_emprestimos"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="72dp"
+        android:text="Listar Empréstimos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_disciplina" />
+
+    <TextView
+        android:id="@+id/textViewProfessores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_emprestimos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
